@@ -9,17 +9,21 @@
 #import "CCSprite.h"
 
 @interface Grid : CCSprite
+
 @end
 @interface countNeighbors : CCSprite
 @end
+
 @interface updateCreatures : CCSprite
+
 @end
 @interface evolveStep : CCSprite
-@end
+
 
 
 @property (nonatomic, assign) int totalAlive;
 
 @property (nonatomic, assign) int generation;
+
 
 
