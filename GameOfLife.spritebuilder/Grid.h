@@ -17,8 +17,7 @@
 @interface updateCreatures : CCSprite
 
 @end
-@interface evolveStep : CCSprite
-
+@interface evolveStep 
 
 
 @property (nonatomic, assign) int totalAlive;
