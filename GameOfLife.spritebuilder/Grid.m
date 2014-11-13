@@ -17,10 +17,10 @@ static const int GRID_ROWS = 8;
 
 static const int GRID_COLUMNS = 10;
 
-@implementation updateCreatures : NSObject
-@end
-@implementation countNeighbors : NSObject
-@end
+//@implementation updateCreatures : NSObject
+//@end
+//@implementation countNeighbors : NSObject
+//@end
 
 @implementation Grid {
     
