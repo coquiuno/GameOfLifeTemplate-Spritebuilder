@@ -11,13 +11,13 @@
 @interface Grid : CCSprite
 
 @end
-@interface countNeighbors 
+@interface countNeighbors : NSObject
 @end
 
-@interface updateCreatures
+@interface updateCreatures :NSObject
 
 @end
-@interface evolveStep
+@interface evolveStep : NSObject    
 
 
 @property (nonatomic, assign) int totalAlive;

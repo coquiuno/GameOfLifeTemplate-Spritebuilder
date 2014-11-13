@@ -17,10 +17,9 @@ static const int GRID_ROWS = 8;
 
 static const int GRID_COLUMNS = 10;
 
-@implementation updateCreatures : CCSprite
+@implementation updateCreatures : NSObject
 @end
-@implementation countNeighbors : CCSprite
-
+@implementation countNeighbors : NSObject
 @end
 
 @implementation Grid {
@@ -105,6 +104,7 @@ static const int GRID_COLUMNS = 10;
     return _gridArray[row][column];
     
 }
+
 
 @implementation evolveStep{
     
