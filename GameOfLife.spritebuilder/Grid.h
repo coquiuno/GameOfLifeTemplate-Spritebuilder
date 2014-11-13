@@ -9,7 +9,10 @@
 #import "CCSprite.h"
 
 @interface Grid : CCSprite
-
+@end
+@interface countNeighbors : NSObject
+@end
+@interface updateCreatures : NSObject
 
 
 @end

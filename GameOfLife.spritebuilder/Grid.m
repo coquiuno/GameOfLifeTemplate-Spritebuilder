@@ -182,4 +182,37 @@ for (int i = 0; i < [_gridArray count]; i++){
     
 }
 
+-(void)updateCreatures{
+    
+    (int) numAlive == 0;
+    
+    for (i = 0; i < [_gridArray count]; i++){
+        
+        for (j = 0; j < [_gridArray[i] count]; j++){
+            
+            Creature *currentCreature = _gridArray[i][j];
+            
+            if (currentCreature.livingNeighbors == 3){
+                
+                currentCreature.isAlive = TRUE;
+                numAlive += 1;
+                
+            }else{
+                
+                if (currentCreature.livingNeighbors <= 1 || currentCreature.livingNeighbors >= 4){
+                    
+                    currentCreature.isAlive = FALSE;
+                    
+                }
+                
+            }
+            
+        }
+        
+    }
+    
+    _totalAlive = numAlive;
+    
+}
+
 @end
