@@ -8,15 +8,17 @@
 
 #import "CCSprite.h"
 
+@interface evolveStep : NSObject
+
 @interface Grid : CCSprite
-@end
+
 @interface countNeighbors : NSObject
-@end
+
 @interface updateCreatures : NSObject
 
 
-@end
-@interface evolveStep
+
+
 
 @property (nonatomic, assign) int totalAlive;
 @property (nonatomic, assign) int generation;
