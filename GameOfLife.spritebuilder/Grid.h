@@ -11,13 +11,13 @@
 @interface Grid : CCSprite
 
 @end
-@interface countNeighbors : CCSprite
+@interface countNeighbors 
 @end
 
-@interface updateCreatures : CCSprite
+@interface updateCreatures
 
 @end
-@interface evolveStep 
+@interface evolveStep
 
 
 @property (nonatomic, assign) int totalAlive;
