@@ -9,17 +9,19 @@
 #import "Grid.h"
 #import "Creature.h"    
 
-@implementation updateCreatures : CCSprite
-@end
-@implementation countNeighbors : CCSprite
 
-@end
 
 // these are variables that cannot be changed
 
 static const int GRID_ROWS = 8;
 
 static const int GRID_COLUMNS = 10;
+
+@implementation updateCreatures : CCSprite
+@end
+@implementation countNeighbors : CCSprite
+
+@end
 
 @implementation Grid {
     

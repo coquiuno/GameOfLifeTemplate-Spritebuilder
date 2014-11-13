@@ -8,7 +8,7 @@
 
 #import "CCSprite.h"
 
-@end
+
 @interface Creature : CCSprite
 
 

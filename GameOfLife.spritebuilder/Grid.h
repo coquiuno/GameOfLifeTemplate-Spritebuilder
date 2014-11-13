@@ -25,5 +25,6 @@
 
 @property (nonatomic, assign) int generation;
 
+@end
 
 
