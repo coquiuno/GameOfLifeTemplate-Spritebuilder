@@ -9,6 +9,9 @@
 #import "CCSprite.h"
 
 @interface Grid : CCSprite
+@interface countNeighbors : CCSprite
+@interface updateCreatures : CCSprite
+
 
 @property (nonatomic, assign) int totalAlive;
 
