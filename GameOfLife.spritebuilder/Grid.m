@@ -106,7 +106,7 @@ static const int GRID_COLUMNS = 10;
 }
 
 
-@implementation evolveStep{
+-(void) evolveStep{
     
     //update each Creature's neighbor count
     [self countNeighbors];
@@ -184,11 +184,11 @@ for (int i = 0; i < [_gridArray count]; i++){
 
 -(void)updateCreatures{
     
-    (int) numAlive == 0;
+  int numAlive = 0;
     
-    for (i = 0; i < [_gridArray count]; i++){
+    for (int i = 0; i < [_gridArray count]; i++){
         
-        for (j = 0; j < [_gridArray[i] count]; j++){
+        for (int j = 0; j < [_gridArray[i] count]; j++){
             
             Creature *currentCreature = _gridArray[i][j];
             
@@ -211,7 +211,7 @@ for (int i = 0; i < [_gridArray count]; i++){
         
     }
     
-    _totalAlive = numAlive;
+    int _totalAlive = numAlive;
     
 }
 
